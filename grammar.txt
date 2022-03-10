@@ -1,0 +1,7 @@
+Essentially a recreation of the BASIC programming language
+
+FEATURES:
+V1 { simple }
+    [ ] compile and evalute simple math commands using PEMDAS
+    [ ] compile and evaluate input from <file name>.math
+V2 { adding more }
