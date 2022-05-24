@@ -62,7 +62,7 @@ func tokenFromWord(currWord string) Token {
 	}
 }
 
-func tokenize(input string) []Token {
+func Tokenize(input string) []Token {
 	tokens := make([]Token, 0)
 	input = strings.TrimSpace(input)
 	/*
@@ -84,7 +84,7 @@ func tokenize(input string) []Token {
 	return tokens
 }
 
-func printTokens(tokens []Token) {
+func PrintTokens(tokens []Token) {
 	for _, tok := range tokens {
 		if tok.val != nil {
 			fmt.Printf("Type: %s = %v\n", tok.Type, tok.val)
@@ -95,9 +95,9 @@ func printTokens(tokens []Token) {
 }
 
 
-func main() {
-	input := " 1 + 2 * ( 5 / 9 ) - 2"
-	fmt.Println(input)
-	tokens := tokenize(input)
-	printTokens(tokens)
-}
+// func main() {
+// 	input := " 1 + 2 * ( 5 / 9 ) - 2"
+// 	fmt.Println(input)
+// 	tokens := Tokenize(input)
+// 	PrintTokens(tokens)
+// }

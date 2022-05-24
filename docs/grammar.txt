@@ -1,4 +1,6 @@
-Essentially a recreation of the BASIC programming language
+Compiles simple mathematical statements using PEMDAS order of operations
+    1 + 2 * 3 = 7
+    ( 1 + 2 ) * 3 = 9
 
 FEATURES:
 V1 { simple }
